@@ -32,14 +32,14 @@ const checkWin = ()=>{
             document.querySelector('.line').style.width= "20vw";
             document.querySelector('.imgBox').getElementsByTagName('img')[0].style.width= "200px";
             gameover.play();
-            music.pause();
-            music.currentTime=0;
+            //music.pause();
+            //music.currentTime=0;
         }
     })
 }
 
 //game logic
-music.play();
+//music.play();
 let boxes= document.getElementsByClassName("box");
 Array.from(boxes).forEach(element =>{
     let boxtext = element.querySelector(' .boxtext');
